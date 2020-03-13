@@ -1,4 +1,4 @@
-# Home Assistant Community Add-on: Example
+# Home Assistant Add-on: Backup
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
@@ -17,30 +17,13 @@
 [![Discord][discord-shield]][discord]
 [![Community Forum][forum-shield]][forum]
 
-[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
 
-[![Support Frenck on Patreon][patreon-shield]][patreon]
-
-Example add-on by Community Hass.io add-ons.
+Backup add-on by Matias Vidal
 
 ## About
 
-This is an example add-on for Hass.io. When started, it displays a
-random quote every 5 seconds.
+This is an simple backup add-on for HomeAssistant.
 
-It shows off several features and structures like:
-
-- Full blown GitHub repository.
-- General Dockerfile structure and setup.
-- The use of the `config.json` and `build.json` files.
-- General shell scripting structure (`run.sh`).
-- Quality assurance using CodeClimate.
-- Continuous integration and deployment using CircleCI.
-- Usage of the Community Hass.io Add-ons build environment.
-- Small use of the Bash function library in our base images.
-- The use of Docker label schema.
-
-## Installation
 
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
@@ -128,7 +111,7 @@ Thank you for being involved! :heart_eyes:
 
 ## Authors & contributors
 
-The original setup of this repository is by [Franck Nijhof][frenck].
+The original setup of this repository is by [Matias Vidal][peladoMat].
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
@@ -144,7 +127,7 @@ our [GitHub Repository][repository].
 
 MIT License
 
-Copyright (c) 2017-2020 Franck Nijhof
+Copyright (c) 2017-2020 Matias Vidal
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -169,29 +152,25 @@ SOFTWARE.
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [commits-shield]: https://img.shields.io/github/commit-activity/y/hassio-addons/addon-example.svg
-[commits]: https://github.com/hassio-addons/addon-example/commits/master
-[contributors]: https://github.com/hassio-addons/addon-example/graphs/contributors
+[commits]: https://github.com/m01cl/addon-restic/commits/master
+[contributors]: https://github.com/m01cl/addon-restic/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
 [dockerhub]: https://hub.docker.com/r/hassioaddons/example
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/repository-community-hass-io-add-ons/24705?u=frenck
-[frenck]: https://github.com/frenck
+[peladoMat]: https://github.com/peladoMat
 [github-sponsors-shield]: https://frenck.dev/wp-content/uploads/2019/12/github_sponsor.png
-[github-sponsors]: https://github.com/sponsors/frenck
-[gitlabci-shield]: https://gitlab.com/hassio-addons/addon-example/badges/master/pipeline.svg
 [gitlabci]: https://gitlab.com/hassio-addons/addon-example/pipelines
 [i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[issue]: https://github.com/hassio-addons/addon-example/issues
+[issue]: https://github.com/m01cl/addon-restic/issues
 [keepchangelog]: http://keepachangelog.com/en/1.0.0/
 [license-shield]: https://img.shields.io/github/license/hassio-addons/addon-example.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
-[patreon-shield]: https://frenck.dev/wp-content/uploads/2019/12/patreon.png
-[patreon]: https://www.patreon.com/frenck
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
-[releases-shield]: https://img.shields.io/github/release/hassio-addons/addon-example.svg
-[releases]: https://github.com/hassio-addons/addon-example/releases
-[repository]: https://github.com/hassio-addons/repository
+[releases-shield]: https://img.shields.io/github/release/m01cl/addon-restic-svg
+[releases]: https://github.com/m01cl/addon-restic/releases
+[repository]: https://github.com/m01cl/repository
 [semver]: http://semver.org/spec/v2.0.0.html
